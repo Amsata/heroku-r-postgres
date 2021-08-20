@@ -1,5 +1,8 @@
 # run.R
 library(shiny)
+library(httr)
+library(RPostgreSQL)
+library(RPostgres)
 
 port <- Sys.getenv('PORT')
 
