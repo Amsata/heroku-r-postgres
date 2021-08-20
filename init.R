@@ -1,4 +1,4 @@
-my_packages=c("RPostgreSQL", "httr","shiny","dplyr","tidyr")
+my_packages=c("RPostgreSQL","RPostgres", "httr","shiny","dplyr","tidyr")
 
 install_if_missing = function(p) {
   if (p %in% rownames(installed.packages()) == FALSE) {
